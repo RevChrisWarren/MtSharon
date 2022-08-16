@@ -1,0 +1,307 @@
+:root {
+    --primary-color: #41475f;
+    --secondary-color: #fcef38;
+    --tertiary-color: #4d50f1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--tertiary-color);
+}
+
+header {
+    padding: 20px 35px;
+    background-color:  #4d50f1;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 75px, 100%;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+header h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--secondary-color);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 0 0 0 7%;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+header nav {
+    margin: 10px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 12px 12px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:hover {
+    color:rgb(33, 31, 160);
+}
+.hero {
+    padding: 20px 30px 200px;
+    background-size: 100%;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../images/church.jpeg");
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.hero h2 {
+    font-size: 32px;
+    color: whitesmoke;
+    text-shadow: 0px 4px 4px rgba(243, 235, 235, 0.5);
+}
+.hero p {
+    margin: 10px 0px; 
+    font-style: italic;
+    font-size: 24px;
+    color: gainsboro;
+    text-shadow: 0px 0px 4px rgba(243, 235, 235, 0.5);
+}
+#our-staff {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sites h2 {
+    font-size: 32px;
+    padding: 10px;
+    border-right: 8px solid var(--tertiary-color);
+    justify-content: center;
+    margin: 15px;
+
+}
+.sites h3 a {
+    color:whitesmoke;
+}
+.lingo {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 80%;
+    padding: 80px;
+    background-image: url("../images/jacqueline-brandwayn-S8MSj5VzHxQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+
+}
+.lingo h3 a:hover {
+    color:rgb(71, 208, 226);}
+
+.national-park {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 80%;
+    padding: 80px;
+    background-image: url("../images/matthew-smith-rFBA42UFpLs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+}
+.national-park h3 a:hover {
+    color:rgb(71, 208, 226);}
+
+.run-buddy {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 45%;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/old\ hero-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+}
+.run-buddy a:hover {
+    color:rgb(71, 208, 226);
+}
+.dayscheduler {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 45%;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/SchedulerSS.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+}
+.dayscheduler a:hover {
+    color:rgb(71, 208, 226);
+}
+.Horiseon {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 45%;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/horiseon.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+}
+.Horiseon a:hover {
+    color:rgb(71, 208, 226);
+}
+
+.password {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 45%;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/PasswordGeneratorScreen.jpeg");
+    background-size: cover;
+    background-position: top;
+    border-radius: 40px 10px;
+}
+.password a:hover {
+    color:rgb(71, 208, 226);
+}
+.weatherapp {
+    color: var(--secondary-color);
+    font-size: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 45%;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/WeatherApp.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px 10px;
+}
+.weatherapp a:hover {
+    color:rgb(71, 208, 226);
+}
+#our-opportunities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.resume {
+    background-image: linear-gradient(var(--primary-color), var(--tertiary-color));
+    width: 80%;
+    padding: 40px;
+    margin: 20px;
+    color: var(--secondary-color);
+
+}
+
+.training h2 {border-right: 8px solid var(--tertiary-color);
+    font-size: 32px;
+    padding: 10px;
+    margin: 20px 20px;
+
+}
+.training p {
+    font-size: 24px;
+}
+
+#our-denomination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.bio {
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(to top, var(--primary-color), var(--tertiary-color));
+    width: 80%;
+    padding: 40px;
+    margin: 20px;
+    color: var(--secondary-color);
+  
+}
+.about h2 {
+    border-right: 8px solid var(--tertiary-color);
+    font-size: 32px;
+    padding: 26px;
+    margin: 20px 20px;
+}
+.about p {
+    font-size: 18px;
+    width: 60%;
+}
+#contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.email {
+    background-image: linear-gradient(var(--primary-color), var(--tertiary-color));
+    padding: 40px;
+    margin: 20px;
+    color: var(--secondary-color);
+    width: 80%;
+}
+.contact h2 {
+    border-right: 8px solid var(--tertiary-color);
+    font-size: 32px;
+    padding: 10px;
+    margin: 20px 20px;
+
+}
+.contact a {
+    color:whitesmoke
+}
+.contact a:hover {
+    color:rgb(71, 208, 226);
+}
+footer {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../images/computerbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--secondary-color);
+    Margin: auto;
+    width: 100%;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header{
+    justify-content: center;
+    position: relative;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .sites {
+        width: 100%;
+    }
+.abouttext p {
+    font-size: 16px;
+
+}
+}
